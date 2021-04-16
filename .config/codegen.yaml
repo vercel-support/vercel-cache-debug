@@ -1,0 +1,13 @@
+overwrite: true
+hooks:
+  afterAllFileWrite:
+    - prettier --write
+generates:
+  generated/graphql/index.tsx:
+    schema: ${NEXT_PUBLIC_API_URL}
+    documents: 'graphql/**/*.gql'
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+    config:
+      exportFragmentSpreadSubTypes: true

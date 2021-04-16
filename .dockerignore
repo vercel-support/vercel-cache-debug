@@ -1,0 +1,19 @@
+# Tools
+.config
+.envrc.example
+.tool-versions
+Brewfile
+
+# Node
+node_modules/
+
+# Git
+.git
+.github
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+docker/docker-compose.prod.yml

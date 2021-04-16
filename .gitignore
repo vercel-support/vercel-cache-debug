@@ -1,0 +1,11 @@
+.DS_Store
+.envrc
+.eslintcache
+.next
+coverage/
+generated/intl/compiled-lang/
+lerna-debug.log*
+lerna-error.log*
+node_modules/
+yarn-debug.log*
+yarn-error.log*
