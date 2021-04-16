@@ -18,7 +18,7 @@ const Page: NextPageWithLayout = () => {
             </Head>
 
             <main>
-                <h1 className="font-bold font-sans text-green-800 bg-green-50 p-24 text-center">
+                <h1 className="font-bold font-sans text-2xl text-green-800 bg-green-50 p-24 text-center">
                     Hello World
                 </h1>
             </main>
